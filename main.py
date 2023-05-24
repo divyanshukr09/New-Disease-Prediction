@@ -23,7 +23,7 @@ with st.sidebar:
                             'Parkinsons Prediction',
                             "Breast Cancer Prediction",
                             "Lung Cancer Prediction"],
-                           icons=['activity', 'heart', 'person',"gender-female",'apple'],
+                           icons=['activity', 'heart', 'person',"gender-female",'activity'],
                            default_index=0)
 
 # Diabetes Prediction Page
