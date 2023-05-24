@@ -243,97 +243,97 @@ if(selected == "Breast Cancer Prediction"):
     col1, col2, col3, col4, col5 = st.columns(5)
 
     # with col1:
-    #     id = st.number_input("id")
+    #     id = st.text_input("id")
 
     with col1:
-        radius_mean = st.number_input("radius_mean")
+        radius_mean = st.text_input("radius_mean")
 
     with col2:
-        texture_mean = st.number_input("texture_mean")
+        texture_mean = st.text_input("texture_mean")
 
     with col3:
-        perimeter_mean = st.number_input("perimeter_mean")
+        perimeter_mean = st.text_input("perimeter_mean")
 
     with col4:
-        area_mean = st.number_input("area_mean")
+        area_mean = st.text_input("area_mean")
 
     with col5:
-        smoothness_mean = st.number_input("smoothness_mean")
+        smoothness_mean = st.text_input("smoothness_mean")
 
     with col1:
-        compactness_mean = st.number_input("compactness_mean")
+        compactness_mean = st.text_input("compactness_mean")
 
     with col2:
-        concavity_mean= st.number_input("concavity_mean")
+        concavity_mean= st.text_input("concavity_mean")
 
     with col3:
-        concave_points_mean = st.number_input("concave points_mean")
+        concave_points_mean = st.text_input("concave points_mean")
 
     with col4:
-        symmetry_mean = st.number_input("symmetry_mean")
+        symmetry_mean = st.text_input("symmetry_mean")
 
     with col5:
-        fractal_dimension_mean = st.number_input("fractal_dimension_mean")
+        fractal_dimension_mean = st.text_input("fractal_dimension_mean")
 
     with col1:
-       radius_se = st.number_input("radius_se")
+       radius_se = st.text_input("radius_se")
 
     with col2:
-        texture_se = st.number_input("texture_se")
+        texture_se = st.text_input("texture_se")
 
     with col3:
-        perimeter_se = st.number_input("perimeter_se")
+        perimeter_se = st.text_input("perimeter_se")
 
     with col4:
-        area_se = st.number_input("area_se")
+        area_se = st.text_input("area_se")
 
     with col5:
-       smoothness_se = st.number_input("smoothness_se")
+       smoothness_se = st.text_input("smoothness_se")
 
     with col1:
-       compactness_se = st.number_input("compactness_se")
+       compactness_se = st.text_input("compactness_se")
 
     with col2:
-        concavity_se = st.number_input("concavity_se")
+        concavity_se = st.text_input("concavity_se")
 
     with col3:
-       concave_points_se = st.number_input("concave points_se")
+       concave_points_se = st.text_input("concave points_se")
 
     with col4:
-        symmetry_se = st.number_input("ssymmetry_se")
+        symmetry_se = st.text_input("ssymmetry_se")
 
     with col5:
-        fractal_dimension_se = st.number_input("fractal_dimension_se")
+        fractal_dimension_se = st.text_input("fractal_dimension_se")
 
     with col1:
-       radius_worst = st.number_input("radius_worst")
+       radius_worst = st.text_input("radius_worst")
 
     with col2:
-        texture_worst = st.number_input("texture_worst")
+        texture_worst = st.text_input("texture_worst")
 
     with col3:
-        perimeter_worst = st.number_input("perimeter_worst")
+        perimeter_worst = st.text_input("perimeter_worst")
 
     with col4:
-       area_worst = st.number_input("area_worst")
+       area_worst = st.text_input("area_worst")
 
     with col5:
-        smoothness_worst = st.number_input("smoothness_worst")
+        smoothness_worst = st.text_input("smoothness_worst")
 
     with col1:
-        compactness_worst = st.number_input("compactness_worst")
+        compactness_worst = st.text_input("compactness_worst")
 
     with col2:
-        concavity_worst = st.number_input("concavity_worst")
+        concavity_worst = st.text_input("concavity_worst")
 
     with col3:
-        concave_points_worst = st.number_input("concave points_worst")
+        concave_points_worst = st.text_input("concave points_worst")
 
     with col4:
-        symmetry_worst = st.number_input("symmetry_worst")
+        symmetry_worst = st.text_input("symmetry_worst")
 
     with col5:
-        fractal_dimension_worst = st.number_input("fractal_dimension_worst")
+        fractal_dimension_worst = st.text_input("fractal_dimension_worst")
 
 
     #code for Prediction
@@ -364,49 +364,49 @@ if(selected == "Lung Cancer Prediction"):
     col1, col2, col3, col4 = st.columns(4)
 
     with col1:
-        GENDER = st.number_input("GENDER")
+        GENDER = st.text_input("GENDER")
 
     with col2:
-        AGE = st.number_input("AGE")
+        AGE = st.text_input("AGE")
 
     with col3:
-        SMOKING = st.number_input("SMOKING")
+        SMOKING = st.text_input("SMOKING")
 
     with col4:
-        YELLOW_FINGERS = st.number_input("YELLOW_FINGERS")
+        YELLOW_FINGERS = st.text_input("YELLOW_FINGERS")
 
     with col1:
-        ANXIETY = st.number_input("ANXIETY")
+        ANXIETY = st.text_input("ANXIETY")
 
     with col2:
-        PEER_PRESSURE = st.number_input("PEER_PRESSURE")
+        PEER_PRESSURE = st.text_input("PEER_PRESSURE")
 
     with col3:
-        CHRONIC_DISEASE = st.number_input("CHRONIC DISEASE")
+        CHRONIC_DISEASE = st.text_input("CHRONIC DISEASE")
 
     with col4:
-        FATIGUE = st.number_input("FATIGUE")
+        FATIGUE = st.text_input("FATIGUE")
 
     with col1:
-        ALLERGY = st.number_input("ALLERGY")
+        ALLERGY = st.text_input("ALLERGY")
 
     with col2:
-        WHEEZING = st.number_input("WHEEZING")
+        WHEEZING = st.text_input("WHEEZING")
 
     with col3:
-        ALCOHOL_CONSUMING = st.number_input("ALCOHOL CONSUMING")
+        ALCOHOL_CONSUMING = st.text_input("ALCOHOL CONSUMING")
 
     with col4:
-        COUGHING = st.number_input("COUGHING")
+        COUGHING = st.text_input("COUGHING")
 
     with col1:
-        SHORTNESS_OF_BREATH = st.number_input("SHORTNESS OF BREATH")
+        SHORTNESS_OF_BREATH = st.text_input("SHORTNESS OF BREATH")
 
     with col2:
-        SWALLOWING_DIFFICULTY = st.number_input("SWALLOWING DIFFICULTY")
+        SWALLOWING_DIFFICULTY = st.text_input("SWALLOWING DIFFICULTY")
 
     with col3:
-        CHEST_PAIN = st.number_input("CHEST PAIN")
+        CHEST_PAIN = st.text_input("CHEST PAIN")
 
 
 
